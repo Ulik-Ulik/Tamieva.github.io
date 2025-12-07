@@ -1,0 +1,160 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  color: #fff;
+  line-height: 1.4em;
+}
+
+
+h2 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.5em;
+  
+  text-align: center;
+}
+
+/* ===== HEADER ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 120px;
+  background: linear-gradient(180deg, #4ca1ff 0%, #0072ff 100%);
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:baseline;
+  gap: 10px;
+  width: 45%;
+  color: white;
+}
+
+.about h1 {
+  font-size: 30px;
+}
+.about h2 {
+  font-weight: 600;
+
+  text-align: left;
+}
+.about h3 {
+  font-weight: 600;
+  font-size: 18px;
+
+  text-align: left;
+}
+
+.about p {
+  text-align: left;
+
+  line-height: 1.6em;
+  font-size: 15px;
+}
+
+.about button {
+  background: #ffde09;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.header-img img {
+  max-width: 400px;
+}
+.logo-img img {
+  max-width: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  gap: 40px;
+}
+
+.bloks {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 800px;
+  gap: 50px;
+}
+
+.blok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  text-align: center;
+  gap: 10px;
+}
+
+
+.survey {
+  background-color: #deedfc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+  gap: 25px;
+}
+
+.survey h2 {
+  font-size: 22px;
+}
+
+.survey form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+input {
+  width: 400px;
+  padding: 12px;
+  border: 1px solid #959595;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+button {
+  background: #ffde09;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  background: linear-gradient(180deg, #0c79ff 0%, #00429d 100%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+}

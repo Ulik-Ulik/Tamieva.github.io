@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="js/script.js"  defer></script>
+
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <img src="img/logo.png" alt="logo" class="logo" />
+            <div class="wrapper">
+                <div class="offer animate__animated animate__fadeInUp">
+                    <h1 class="title animate__animated animate__bounc" id="title">С помощью нас </br>
+                        вы сможете создать то, о чем</h1>
+                    <span class="title__span">желаете!</span>
+                    <p class="offer__text">Наши возможности + опыт позволят Вам
+                        достичь огрмного успеха. Мы верим в вас! И знаем это на
+                        все 100%. Вас не остановить!</p>
+                    <a href="#" class="btn">Узнать больше...</a>
+                </div>
+                <img src="img/header-img.png" alt="picture" class="desktop animate__animated animate__flipInX" />
+            </div>
+        </div>
+    </header>
+
+    <section class="expect" id="expect">
+        <div class="container">
+            <h2 class="section-title" id="what">Что Вам необходимо?</h2>
+            <div class="wishes">
+                <div class="wish">
+                    <img class="wish__img" src="img/f3.png" alt="time" id="img1">
+                    <h3 class="wish__title">Первый блок</h3>
+                    <p class="wish__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="wish">
+                    <img class="wish__img" src="img/f4.png" alt="beach" id="img2">
+                    <h3 class="wish__title">Второй блок</h3>
+                    <p class="wish__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit?</p>
+                </div>
+                <div class="wish">
+                    <img class="wish__img" src="img/f5.png" alt="launch" id="img3">
+                    <h3 class="wish__title">Третий блок</h3>
+                    <p class="wish__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product-order-con">
+
+ <div class="service">
+
+    <div class="product-order-header">
+        <h3 class="section-title">Форма заявки на сервис</h3>
+    </div>
+
+    <div class="product-order-content">
+        <form action="#" enctype="multipart/form-data" class="form" id="mainform" novalidate>
+
+            <p>
+                <input type="text" class="input" name="client-name" id="client-name" placeholder="Ваше имя" required>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+            <p>
+                <input type="email" class="input" name="client-email" id="client-email" placeholder="Email для связи" required>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+            <p>
+                <select class="input" name="service-type" id="service-type" required>
+                    <option value="">Выберите тип услуги</option>
+                    <option value="mobile-app">Мобильное приложение</option>
+                    <option value="web-app">Веб-приложение</option>
+                    <option value="ui-ux">UI/UX Дизайн</option>
+                    <option value="consulting">Консалтинг</option>
+                </select>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+            <p>
+                <select class="product-order-form" name="priority" id="priority" required>
+                    <option value="">Приоритет заказа</option>
+                    <option value="low">Низкий</option>
+                    <option value="medium">Средний</option>
+                    <option value="high">Высокий</option>
+                </select>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+            <p>
+                <textarea class="product-order-form com" name="comments" id="comments" placeholder="Комментарий к заказу" rows="4"></textarea>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+            <p>
+                <input type="date" class="product-order-form" name="deadline" id="deadline" required>
+                <span class="error1" aria-live="polite"></span>
+            </p>
+
+
+            <div>
+                <button class="po-button" type="submit">Отправить заявку</button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+    </section>
+    <section id="mail" class="mail">
+        <div class="container">
+            <h2 class="section-title">Форма заказа обратного звонка</h2>
+            <form action="#" class="form">
+                <input type="text" name="name" id="name" placeholder="Имя" class="input" required>
+                <input type="email" placeholder="Введите свой E-mail" name="email" class="input" required>
+                <input type="tel" name="tel" id="tel" placeholder="Телефон" class="input" required>
+                <input type="text" name="place" id="place" placeholder="Какая тема Вас интересует?" class="input">
+                <button type="submit" class="btn btn-form">Отравить вопрос!</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy;&nbsp;Все на этом сайте защищено</p>
+        </div>
+    </footer>
+    <Script src="script.js"></Script>
+</body>
+
+</html>
